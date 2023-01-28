@@ -22,11 +22,6 @@ Backend - Python, php, MySQL
 Development tool - GITHUB 
 IDE - VS Code.
 
-📁File Structure 
-
-Angular -
-index.html // Index Html File 
-|   README.md  // Readme File 
  
 📄Color section 
 COLOR 
