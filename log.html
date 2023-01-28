@@ -12,18 +12,12 @@
     <body>
         <div class="main">  	
             <input type="checkbox" id="chk" aria-hidden="true">
-    
-            
-                <div class="signup">
+            <div class="signup">
                     <form>
                         <label for="chk" aria-hidden="true">Admin</label>
-                       
-                        
                         <input type="email" name="email" placeholder="Email" [(ngModel)]="signUpObj.email" required="">
                         <input type="password" name="pswd" placeholder="Password" [(ngModel)]="signUpObj.password" required="">
                         <a href="login.html">
-
-                        
                         <button (click)="onSignUp()">login</button></a>
                     </form>
             </div>
@@ -31,7 +25,6 @@
                     <form>
                         <label for="chk" aria-hidden="true">Employee</label>
                         <input type="text" name="txt" placeholder="User name" [(ngModel)]="signUpObj.username">
-                        <!-- <input type="email" name="email" placeholder="Email" [(ngModel)]="loginObj.email" required=""> -->
                         <input type="password" name="pswd" placeholder="Password" [(ngModel)]="loginObj.email" required="">
                         <button (click)="onLogin()">login</button>
                     </form>
