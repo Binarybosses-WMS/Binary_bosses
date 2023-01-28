@@ -23,8 +23,7 @@
             </li>
           </ul>
           <ul>
-
-              <li class="active"><a href="#"><i class="fa fa-envelope-o"></i><span>Inbox</span><i class="fa fa-angle-right"></i></a></li>
+          <li class="active"><a href="#"><i class="fa fa-envelope-o"></i><span>Inbox</span><i class="fa fa-angle-right"></i></a></li>
               <li><a href="#"><i class="fa fa-paper-plane-o"></i><span>Send</span><i class="fa fa-angle-right"></i></a></li>
               <li><a href="#"><i class="fa fa-comments-o"></i><span>Chat</span><i class="fa fa-angle-right"></i></a></li>
               <li><a href="#"><i class="fa fa-exclamation-triangle"></i><span>Spam</span><i class="fa fa-angle-right"></i></a></li>
@@ -32,9 +31,7 @@
               <li><a href="#"><i class="fa fa-trash"></i><span>Trash</span><i class="fa fa-angle-right"></i></a></li>
               <li><a href="#"><i class="fa-solid fa-calendar-days"></i><span>Calander</span><i class="fa fa-angle-right"></i></a></li>
               <li><a href="#"><i class="fa fa-files-o"></i><span>Invoice</span><i class="fa fa-angle-right"></i></a></li>
-
-              
-            </li>
+              </li>
           </ul>
           <ul>
             <li><a href="#"><i class="fa fa-sign-out"></i>Sign out</a></li><spam>
@@ -103,17 +100,7 @@
                         <h5>Suggestion</h5>
                         <p>I cant login since yesterday, Please look into matter and please give me contact details for more information.It would be helpful.ccontact</p>
                     </div>
-                </li>
-                <!-- <li>
-                    <input type="checkbox" name="" class="single-check" id="">
-                    <i class="fa fa-star"></i>    
-                    <img src="user.png">
-                    <h5>MrPandey</h5>
-                    <div>
-                        <h5>Completion of delivery</h5>
-                        <p>This email is to inform you that we will be performing inventory taking  in Mumbai.and please give me contact details for more information.It would be helpful</p>
-                    </div>
-                </li> -->
+              </li>
                 <li>
                     <input type="checkbox" name="" class="single-check" id="">
                     <i class="fa fa-star"></i>
@@ -150,7 +137,7 @@
                     <img src="user.png">
                     <h5>Mrs.Shweta</h5>
                     <div>
-                        <h5>Complaint mail</h5>
+                        <h5>Complaint Mail</h5>
                         <p>The bar code is not working.Please look into matter  and please give me contact details for more information.It would be helpful.Contact </p>
                 </li>
                 <li>
