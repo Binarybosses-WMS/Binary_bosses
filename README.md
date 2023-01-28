@@ -16,7 +16,7 @@ and so on. You are free to add more features to this software as Mario promises 
 
 Frontend - Angular (Html ,CSS , javascript ) ,Bootstrap. 
 
-Backend - Python, php, MySQL
+Backend -  PHP, MySQL
 
 Development tool - GITHUB 
 
