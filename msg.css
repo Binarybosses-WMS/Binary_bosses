@@ -40,7 +40,7 @@ aside ul li{
     position: relative;
     overflow: hidden;
     line-height: 35px;
-    color: white;
+    color: #ffffff;
     height: 35px;
 }
 aside ul li:hover
@@ -52,7 +52,7 @@ aside ul:first-child list-style:hover{
 }
 aside ul li.active
 {
-    background:white;
+    background:#ffffff;
     width: 112%;
     border-radius: 5px 0 0 5px;
     transition: 0.5s;
