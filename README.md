@@ -14,7 +14,7 @@ and so on. You are free to add more features to this software as Mario promises 
 
 💻Tech Stack 
 
-Frontend - Angular (Html ,CSS , javascript ) ,Bootstrap. 
+Frontend - Html ,CSS , javascript ,Bootstrap. 
 
 Backend -  PHP, MySQL
 
