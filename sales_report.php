@@ -14,8 +14,7 @@ $page_title = 'Sale Report';
   <div class="col-md-6">
     <div class="panel">
       <div class="panel-heading">
-
-      </div>
+       </div>
       <div class="panel-body">
           <form class="clearfix" method="post" action="sale_report_process.php">
             <div class="form-group">
