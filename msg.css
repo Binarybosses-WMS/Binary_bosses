@@ -23,7 +23,7 @@ nav{
 aside{
     width: 18%;
     height: 730px;
-    background: #a16711;
+    background: #ffffff;
     transition: 0.5s;
     float: left;
 }
@@ -40,7 +40,7 @@ aside ul li{
     position: relative;
     overflow: hidden;
     line-height: 35px;
-    color: #ffffff;
+    color: black;
     height: 35px;
 }
 aside ul li:hover
@@ -52,7 +52,7 @@ aside ul:first-child list-style:hover{
 }
 aside ul li.active
 {
-    background:#ffffff;
+    background:rgb(177, 245, 245);
     width: 112%;
     border-radius: 5px 0 0 5px;
     transition: 0.5s;
@@ -64,7 +64,7 @@ aside ul li.active a{
 }
 aside ul li a{
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
 }
 aside ul li a i{
     width: 30px;
