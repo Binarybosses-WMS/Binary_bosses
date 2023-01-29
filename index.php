@@ -14,16 +14,15 @@
         <div class="form-group">
               <label for="username" class="control-label">Username</label>
               <input type="name" class="form-control" name="username" placeholder="Username">
-        </div>
-        <div class="form-group">
+             </div>
+             <div class="form-group">
             <label for="Password" class="control-label">Password</label>
-            <input type="password" name= "password" class="form-control" placeholder="password">
-          
-        </div>
+            <input type="password" name= "password" class="form-control" placeholder="Password">
+             </div>
         
-        <div class="form-group">
+             <div class="form-group">
                 <button type="submit" class="btn btn-info  pull-right">Login</button>
-        </div>
-    </form>
+             </div>
+         </form>
 </div>
 <?php include_once('layouts/footer.php'); ?>
