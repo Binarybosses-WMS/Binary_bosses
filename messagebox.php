@@ -1,3 +1,19 @@
+<?php
+  $page_title = 'Admin Home Page';
+  require_once('includes/load.php');
+  // Checkin What level user has permission to view this page
+   page_require_level(1);
+?>
+<?php
+ $c_categorie     = count_by_id('categories');
+ $c_product       = count_by_id('products');
+ $c_sale          = count_by_id('sales');
+ $c_user          = count_by_id('users');
+ $products_sold   = find_higest_saleing_product('10');
+ $recent_products = find_recent_product_added('5');
+ $recent_sales    = find_recent_sale_added('5')
+?>
+<?php include_once('layouts/header.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -49,7 +65,7 @@
             <i class="fa fa-comments"></i>
                 <i class="fa fa-bell-o"></i> 
                 <i class="fa fa-chevron-down"></i>  
-                <img src="img/user.jpg" >
+                <img src="icon.png" >
         </header>
       </nav>
       <main>
@@ -87,7 +103,7 @@
                     <img src="user.png">
                     <h5>Kumar Varma</h5>
                     <div>
-                        <h5>Thanking for service</h5>
+                        <!-- <h5>Thanking for service</h5> -->
                         <p>I Kumar, thank you for your service. and please give me contact details for more information.It would be helpful Contact details are</p>
                     </div>
                 </li>
@@ -97,7 +113,7 @@
                     <img src="user.png">
                     <h5>Param Sharma</h5>
                     <div>
-                        <h5>Suggestion</h5>
+                        <!-- <h5>Suggestion</h5> -->
                         <p>I cant login since yesterday, Please look into matter and please give me contact details for more information.It would be helpful.ccontact</p>
                     </div>
               </li>
@@ -107,7 +123,7 @@
                     <img src="user.png">
                     <h5>Mrs. Dubey</h5>
                     <div>
-                        <h5>Confirmation email</h5>
+                        <!-- <h5>Confirmation email</h5> -->
                         <p>This email is to confirm about the delivery of product has recieved.and please give me contact details for more information.It would </p>
                     </div>
                 </li>
@@ -117,7 +133,7 @@
                     <img src="user.png">
                     <h5>Mr. Kapoor</h5>
                     <div>
-                        <h5>Application for job</h5>
+                        <!-- <h5>Application for job</h5> -->
                         <p>I have seen you application of Assistance. and please give me contact details for more information.It would be helpful.Contact details </p>
                     </div>
                 </li>
@@ -127,7 +143,7 @@
                     <img src="user.png">
                     <h5>Mr.Khan</h5>
                     <div>
-                        <h5>Thanking for service</h5>
+                        <!-- <h5>Thanking for service</h5> -->
                         <p>We thank you for your service, we are recieving good quality of product and please give me contact details for more information. Contact</p>
                     </div>
                 </li>
@@ -137,7 +153,7 @@
                     <img src="user.png">
                     <h5>Mrs.Shweta</h5>
                     <div>
-                        <h5>Complaint Mail</h5>
+                        <!-- <h5>Complaint Mail</h5> -->
                         <p>The bar code is not working.Please look into matter  and please give me contact details for more information.It would be helpful.Contact </p>
                 </li>
                 <li>
@@ -146,7 +162,7 @@
                     <img src="user.png">
                     <h5>MR. Pratham</h5>
                     <div>
-                        <h5>Month Report</h5>
+                        <!-- <h5>Month Report</h5> -->
                         <p>This is month report of our warehouse. Please check and please give me contact details for more information.It would be helpful</p>
                     </div>
                 </li>
@@ -156,7 +172,7 @@
                     <img src="user.png">
                     <h5>Mrs. Varma</h5>
                     <div>
-                        <h5>Increment In Salary</h5>
+                        <!-- <h5>Increment In Salary</h5> -->
                         <p>Hello, We read about your inventory on Social media and want to Use the service. Can you please give me contact details for more information.Contact</p>
                     </div>
                 </li>
